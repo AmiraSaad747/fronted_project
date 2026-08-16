@@ -1,1 +1,77 @@
-"# fronted_project" 
+"# fronted_project
+# Clothing Shopping - Product Module
+
+## 1. Entity Chosen and Why
+
+I chose **Product** as the entity for this module because my graduation project is an online clothing shopping application.
+
+The Product entity is important because it represents the clothes that users can browse and purchase.
+
+Each product contains information such as:
+
+* Name
+* Description
+* Price
+* Category
+* Size
+* Stock
+* Image URL
+
+## 2. Routes Summary
+
+| Method | Route           | Description          |
+| ------ | --------------- | -------------------- |
+| POST   | `/products`     | Create a new product |
+| GET    | `/products`     | Get all products     |
+| GET    | `/products/:id` | Get a product by ID  |
+| PATCH  | `/products/:id` | Update a product     |
+| DELETE | `/products/:id` | Delete a product     |
+
+## 3. How to Run the Code Locally
+
+### Step 1: Install the dependencies
+
+Open the terminal inside the project folder and run:
+
+```bash
+npm install
+```
+
+### Step 2: Configure the environment variables
+
+Create a `.env` file in the project root:
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+DB_NAME=clothingDB
+```
+
+### Step 3: Start the server
+
+Run:
+
+```bash
+node index.js
+```
+
+The server will run on:
+
+```text
+http://localhost:5000
+```
+
+### Step 4: Test the API
+
+Use Postman to test the following routes:
+
+```text
+POST   /products
+GET    /products
+GET    /products/:id
+PATCH  /products/:id
+DELETE /products/:id
+```
+
+The project uses **Express.js**, **Mongoose**, and **MongoDB Atlas** to implement the Product CRUD operations.
+" 
