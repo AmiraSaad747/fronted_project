@@ -76,5 +76,36 @@ DELETE /products/:id
 ```
 
 The project uses **Express.js**, **Mongoose**, and **MongoDB Atlas** to implement the Product CRUD operations.
+5. API Usage Examples
+Create Product
+
+Send a POST request to /products using multipart/form-data.
+
+Provide the product information such as name, description, price, category, size, and stock. An image can be uploaded using the image field.
+
+Get All Products
+
+Send a GET request to /products to retrieve all products stored in the database.
+
+Get Product by ID
+
+Send a GET request to /products/:id and replace :id with the product ID to retrieve one product.
+
+Update Product
+
+Send a PATCH request to /products/:id to update product information. A new image can also be uploaded using the image field.
+
+Delete Product
+
+Send a DELETE request to /products/:id to remove a product from the database.
+
+6. Technologies Used
+Node.js
+Express.js
+MongoDB
+Mongoose
+Multer
+dotenv
+Postman
 
 " 
