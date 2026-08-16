@@ -41,8 +41,11 @@ npm install
 
 Create a `.env` file in the project root:
 
+```env
 PORT=5000
+
 MONGODB_URI=mongodb+srv://clothingUser:Clothing123456@cluster0.ovie2ox.mongodb.net/?appName=Cluster0
+
 DB_NAME=clothingDB
 ```
 
@@ -73,4 +76,5 @@ DELETE /products/:id
 ```
 
 The project uses **Express.js**, **Mongoose**, and **MongoDB Atlas** to implement the Product CRUD operations.
+
 " 
