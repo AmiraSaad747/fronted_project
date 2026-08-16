@@ -73,7 +73,7 @@ GET    /products
 GET    /products/:id
 PATCH  /products/:id
 DELETE /products/:id
-```
+
 
 The project uses **Express.js**, **Mongoose**, and **MongoDB Atlas** to implement the Product CRUD operations.
 
