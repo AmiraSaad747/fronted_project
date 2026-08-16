@@ -76,6 +76,9 @@ DELETE /products/:id
 ```
 
 The project uses **Express.js**, **Mongoose**, and **MongoDB Atlas** to implement the Product CRUD operations.
+
+
+
 5. API Usage Examples
 Create Product
 
