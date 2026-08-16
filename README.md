@@ -52,7 +52,7 @@ DB_NAME=clothingDB
 Run:
 
 ```bash
-node index.js
+npm start
 ```
 
 The server will run on:
